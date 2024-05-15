@@ -1,0 +1,44 @@
+2024-05-11 12:57:19,698 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on D-PMERA7216 with PID 10768 (started by era7216 in C:\Users\era7216\Documents\Batch- Devoluciones\devoluciones-jar)
+2024-05-11 12:57:19,711 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-05-11 12:57:20,225 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-05-11 12:57:20,238 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2024-05-11 12:57:20,486 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2024-05-11 12:57:20,543 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2024-05-11 12:57:20,543 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-05-11 12:57:20,544 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-11 12:57:20,544 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-11 12:57:20,544 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-05-11 12:57:20,545 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/era7216/Documents/jboss-eap-7.1/standalone/configuration/devoluciones-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-05-11 12:57:20,695 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2024-05-11 12:57:20,698 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2024-05-11 12:57:20,859 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-11 12:57:21,262 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-11 12:57:21,335 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-05-11 12:57:21,408 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2024-05-11 12:57:21,409 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2024-05-11 12:57:21,646 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-05-11 12:57:21,815 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2024-05-11 12:57:22,069 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-11 12:57:22,075 [INFO] com.eglobal.ti.devoluciones.jar.AppInitializator [main] AppInitializator initialization logic ...
+2024-05-11 12:57:22,077 [INFO] com.eglobal.ti.devoluciones.jar.InitApplication [main] InitApplication initialization logic ...
+2024-05-11 12:57:22,375 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 3.064 seconds (JVM running for 3.548)
+2024-05-11 12:57:22,378 [INFO] com.eglobal.ti.devoluciones.jar.AppLauncher [main] Application started with arguments: 20240510|rs|1|12
+2024-05-11 12:57:22,379 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2024-05-11 12:57:22,387 [INFO] com.eglobal.ti.devoluciones.jar.repository.dao.sp.ConsultaSP [main] *********** INICIA EJECUCION DE SP ***********
+2024-05-11 12:57:22,387 [INFO] com.eglobal.ti.devoluciones.jar.repository.dao.sp.ConsultaSP [main] 20240510
+2024-05-11 12:57:22,387 [INFO] com.eglobal.ti.devoluciones.jar.repository.dao.sp.ConsultaSP [main] rs
+2024-05-11 12:57:22,387 [INFO] com.eglobal.ti.devoluciones.jar.repository.dao.sp.ConsultaSP [main] 12
+2024-05-11 12:57:22,387 [INFO] com.eglobal.ti.devoluciones.jar.repository.dao.sp.ConsultaSP [main] 1
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,470 [INFO] com.eglobal.ti.devoluciones.jar.service.impl.InitApplicationServiceImpl [main] LISTA
+2024-05-11 12:57:22,474 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-3] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-11 12:57:22,476 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown initiated...
+2024-05-11 12:57:22,478 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-3] HikariPool-1 - Shutdown completed.

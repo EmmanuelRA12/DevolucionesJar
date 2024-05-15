@@ -1,0 +1,1076 @@
+2020-01-23 09:23:11,720 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 11240 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 09:23:11,745 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 09:23:13,373 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:23:13,523 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 138ms. Found 3 repository interfaces.
+2020-01-23 09:23:13,536 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:23:13,571 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34ms. Found 3 repository interfaces.
+2020-01-23 09:23:13,572 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:23:13,584 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2020-01-23 09:23:13,585 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:23:13,602 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17ms. Found 1 repository interfaces.
+2020-01-23 09:23:13,603 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:23:13,612 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9ms. Found 1 repository interfaces.
+2020-01-23 09:23:14,042 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 09:23:14,117 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 09:23:14,118 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:23:14,119 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:23:14,119 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:23:14,119 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 09:23:14,120 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:23:14,122 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:23:14,383 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 09:23:14,386 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 09:23:14,422 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@36b6964d with name: jasyptStringEncryptor
+2020-01-23 09:23:15,333 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 09:23:15,427 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 09:23:15,429 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 09:23:15,749 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 09:23:16,161 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 09:23:16,416 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 09:23:16,456 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:23:18,392 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:23:18,441 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 09:23:18,579 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 09:23:18,599 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 09:23:18,599 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:23:18,954 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:23:18,972 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 09:23:19,076 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 09:23:22,575 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 09:23:22,638 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 09:23:22,639 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:23:23,629 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:23:23,754 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:23:23,797 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 09:23:23,891 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 09:23:23,907 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 09:23:23,908 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:23:23,930 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:23:23,931 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:23:24,005 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:23:24,039 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 09:23:24,223 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 09:23:24,245 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 09:23:24,246 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:23:24,266 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:23:24,266 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:23:24,307 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:23:24,311 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 09:23:24,314 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 09:23:24,315 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 09:23:24,315 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 09:23:24,316 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 09:23:25,646 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:23:25,683 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:23:26,022 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 15.37 seconds (JVM running for 16.088)
+2020-01-23 09:23:26,025 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BX|26|2020-01-22
+2020-01-23 09:23:26,026 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 09:23:27,310 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 09:23:27,310 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 09:23:27,311 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:23:27,311 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 09:23:27,311 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@15251cc2
+2020-01-23 09:23:27,312 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 09:23:27,312 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 09:23:27,312 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 09:23:27,315 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:26,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:23:27,749 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 09:23:27,764 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793007749,"dtonvCodigo":"CBK-AA-BX","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 26"}]]
+2020-01-23 09:23:28,048 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:23:28,049 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1419
+2020-01-23 09:23:28,049 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:23:28,050 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:23:28,050 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:26,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:23:28,187 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 09:23:28,209 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"pan":"5536360282916097","amount_trans":"000000037530","func_code":"450","mess_reason_cod":"4853","org_amoun_trans":"375.3","intchg_rate_des":"75","acq_bin":"31512","jul_proc_date":"8350","acq_sequ_num":"91039172200","check_digit":"3","emisor":"7","adquirente":"26","fe_proceso":"2020-01-22 00:00:00.0","numeroReferencia":"75315128350910391722003","idBitacoraEmisorCbk":null,"iidcasocontroversia":null,"messreverind":"","cetlsitprc_date":"200122","approval_code":"036807","org_amoun_recon":"000000037530","date_loc_txn":"181215","card_accep_code":"7011","curren_cd_trns":"840","curren_cd_conci":"840","data_record":"CREDIT NOT PROCESSED","crd_issuer_ref":"0004609578","trns_dest_inst":"003006","trns_org_inst":"006282","message_number":"00090281","curren_exp":"2","card_trans_type":"00","curren_code":"840","crd_acp_city":"COZUMEL","crd_acp_zip_cod":"77600","crd_acp_ste_reg":"000","pos_data":"M10110199001","crd_acp_name":"VACATION TA COZUMEL TI","crd_acp_country":"MEX","c_cod_razon_rep":null,"d_cc_imp_tra_rep":null,"d_cc_fec_rem":null,"cbk_Id":200002016011,"cbk_ClaimId":3916270}]]
+2020-01-23 09:23:28,265 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: Etapa: Integridad de Datos 
+2020-01-23 09:23:28,266 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2020-01-23 09:23:28,267 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:23:28,268 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:23:28,283 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2020-01-23 09:23:28,287 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CBK-AA-BX","dtodtFhProcesamiento":1579793008283,"dtodtFechaTrx":1579672800000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5536360282916097","dtonvNumeroReferencia":"75315128350910391722003","dtofImporteTrx":37530.0,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":4853,"dtonvTpoAclaracion":"CB1","dtonvCbkIdUnico":"3916270","dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2020-01-23 09:23:28,518 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:23:28,519 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 13532
+2020-01-23 09:23:28,519 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:23:28,519 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:23:28,519 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** INICIA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:23:28,766 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** TERMINA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:23:28,766 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION CC:[1]
+2020-01-23 09:23:28,767 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION RV:Adquiriente:26,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:23:28,897 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION RV: NO HAY REVERSOS NUEVOS**********
+2020-01-23 09:23:28,902 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793008897,"dtonvCodigo":"CBK-AA-BX","dtonvDescError":"No hay reversos nuevos de adquiriente 26"}]]
+2020-01-23 09:23:28,953 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:23:28,953 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1420
+2020-01-23 09:23:28,954 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:23:28,954 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:23:28,954 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO DE CONTROVERSIAS ATENDIDAS:FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:23:29,036 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO DE CONTROVERSIAS ATENDIDAS: NO HAY DATOS ATENDIDOS**********
+2020-01-23 09:23:29,038 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793009036,"dtonvCodigo":"CBK-AA-BX","dtonvDescError":"No hay contoversias atendidas con el adquiriente 26"}]]
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1421
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Inicio: 09:23:27
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Fin: 09:23:29
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Registros: 1
+2020-01-23 09:23:29,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Exitosos: 1
+2020-01-23 09:23:29,144 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Fallidos: 0
+2020-01-23 09:23:29,150 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1579793009144,"dtoiTotalError":0,"dtoiTotalExitosos":1,"dtoiTotalPendientes":0,"dtoiTotalRegistros":1,"dtonvCodigo":"CBK-AA-BX","dtotHoraFin":"09:23:29","dtotHoraInicio":"09:23:27"}]]
+2020-01-23 09:23:29,315 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2020-01-23 09:23:29,317 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1183
+2020-01-23 09:23:29,317 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:23:29,317 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:23:29,372 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:23:29,373 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2020-01-23 09:23:29,380 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2020-01-23 09:23:29,381 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:23:29,382 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2020-01-23 09:23:29,392 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2020-01-23 09:23:29,393 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:23:29,394 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2020-01-23 09:23:30,877 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2020-01-23 09:23:30,879 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:23:30,882 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-01-23 09:23:30,891 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-01-23 09:23:30,892 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:23:30,895 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-01-23 09:23:30,900 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-01-23 09:24:58,253 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 9108 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 09:24:58,258 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 09:24:59,174 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:24:59,287 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 102ms. Found 3 repository interfaces.
+2020-01-23 09:24:59,288 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:24:59,318 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30ms. Found 3 repository interfaces.
+2020-01-23 09:24:59,319 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:24:59,328 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2020-01-23 09:24:59,329 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:24:59,338 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 9ms. Found 1 repository interfaces.
+2020-01-23 09:24:59,349 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:24:59,365 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2020-01-23 09:24:59,780 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 09:24:59,856 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 09:24:59,857 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:24:59,858 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:24:59,859 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:24:59,859 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 09:24:59,860 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:24:59,860 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:25:00,114 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 09:25:00,117 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 09:25:00,142 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@2fb68ec6 with name: jasyptStringEncryptor
+2020-01-23 09:25:00,940 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 09:25:01,049 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 09:25:01,052 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 09:25:01,331 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 09:25:01,710 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 09:25:01,929 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 09:25:01,952 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:25:03,171 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:25:03,216 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 09:25:03,313 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 09:25:03,336 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 09:25:03,337 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:25:03,681 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:25:03,699 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 09:25:03,792 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 09:25:05,053 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 09:25:05,111 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 09:25:05,112 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:25:06,005 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:25:06,114 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:25:06,179 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 09:25:06,280 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 09:25:06,302 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 09:25:06,303 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:25:06,334 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:25:06,335 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:25:06,401 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:25:06,436 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 09:25:06,607 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 09:25:06,626 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 09:25:06,627 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:25:06,651 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:25:06,651 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:25:06,726 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:25:06,732 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 09:25:06,734 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 09:25:06,734 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 09:25:06,735 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 09:25:06,736 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 09:25:07,982 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:25:08,025 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:25:08,304 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 10.947 seconds (JVM running for 11.472)
+2020-01-23 09:25:08,307 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BR|12|2020-01-22
+2020-01-23 09:25:08,307 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 09:25:08,714 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 09:25:08,717 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 09:25:08,723 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:25:08,723 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 09:25:08,724 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@52737c1
+2020-01-23 09:25:08,726 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 09:25:08,726 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 09:25:08,726 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 09:25:08,732 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:25:09,082 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 09:25:09,095 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793109082,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 12"}]]
+2020-01-23 09:25:09,122 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:25:09,122 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1422
+2020-01-23 09:25:09,122 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:25:09,123 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:25:09,123 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:25:09,261 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 09:25:09,295 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"pan":"5273466299693889","amount_trans":"000000019355","func_code":"450","mess_reason_cod":"4808","org_amoun_trans":"3685.51","intchg_rate_des":"75","acq_bin":"41405","jul_proc_date":"9095","acq_sequ_num":"94827481196","check_digit":"1","emisor":"7","adquirente":"12","fe_proceso":"2020-01-22 00:00:00.0","numeroReferencia":"75414059095948274811961","idBitacoraEmisorCbk":null,"iidcasocontroversia":null,"messreverind":"","cetlsitprc_date":"200122","approval_code":"105078","org_amoun_recon":"000000019355","date_loc_txn":"190404","card_accep_code":"7512","curren_cd_trns":"840","curren_cd_conci":"840","data_record":null,"crd_issuer_ref":"0000225732","trns_dest_inst":"005541","trns_org_inst":"019071","message_number":"00008676","curren_exp":"2","card_trans_type":"00","curren_code":"840","crd_acp_city":"OAXACA DE JUA","crd_acp_zip_cod":"68000","crd_acp_ste_reg":"OA","pos_data":"M10101C11001","crd_acp_name":"ALAMO OAXACA CENTRO","crd_acp_country":"MEX","c_cod_razon_rep":null,"d_cc_imp_tra_rep":null,"d_cc_fec_rem":null,"cbk_ClaimId":3627843,"cbk_Id":200002011694}]]
+2020-01-23 09:25:09,450 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: Etapa: Integridad de Datos 
+2020-01-23 09:25:09,453 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2020-01-23 09:25:09,453 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:25:09,453 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:25:09,478 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2020-01-23 09:25:09,484 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CBK-AA-BR","dtodtFhProcesamiento":1579793109478,"dtodtFechaTrx":1579672800000,"dtoiEmisor":0,"dtoiAdquirente":12,"dtonvNumeroCta":"5273466299693889","dtonvNumeroReferencia":"75414059095948274811961","dtofImporteTrx":19355.0,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":4808,"dtonvTpoAclaracion":"CB1","dtonvCbkIdUnico":"3627843","dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2020-01-23 09:25:09,568 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:25:09,568 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 13533
+2020-01-23 09:25:09,568 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:25:09,568 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:25:09,568 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** INICIA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:25:09,704 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** TERMINA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:25:09,704 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION CC:[1]
+2020-01-23 09:25:09,705 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION RV:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:25:09,829 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION RV: NO HAY REVERSOS NUEVOS**********
+2020-01-23 09:25:09,835 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793109830,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay reversos nuevos de adquiriente 12"}]]
+2020-01-23 09:25:09,883 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:25:09,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1423
+2020-01-23 09:25:09,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:25:09,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:25:09,885 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO DE CONTROVERSIAS ATENDIDAS:FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:25:09,950 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO DE CONTROVERSIAS ATENDIDAS: NO HAY DATOS ATENDIDOS**********
+2020-01-23 09:25:09,952 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793109950,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay contoversias atendidas con el adquiriente 12"}]]
+2020-01-23 09:25:09,993 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:25:09,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1424
+2020-01-23 09:25:09,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:25:09,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:25:09,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2020-01-23 09:25:09,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Inicio: 09:25:08
+2020-01-23 09:25:09,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Fin: 09:25:09
+2020-01-23 09:25:09,995 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Registros: 1
+2020-01-23 09:25:09,995 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Exitosos: 1
+2020-01-23 09:25:09,995 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Fallidos: 0
+2020-01-23 09:25:10,000 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1579793109995,"dtoiTotalError":0,"dtoiTotalExitosos":1,"dtoiTotalPendientes":0,"dtoiTotalRegistros":1,"dtonvCodigo":"CBK-AA-BR","dtotHoraFin":"09:25:09","dtotHoraInicio":"09:25:08"}]]
+2020-01-23 09:25:10,041 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2020-01-23 09:25:10,042 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1184
+2020-01-23 09:25:10,042 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:25:10,042 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:25:10,071 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:25:10,073 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2020-01-23 09:25:10,100 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2020-01-23 09:25:10,100 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:25:10,107 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2020-01-23 09:25:10,123 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2020-01-23 09:25:10,124 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:25:10,124 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2020-01-23 09:25:10,675 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2020-01-23 09:25:10,676 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:25:10,677 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-01-23 09:25:10,685 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-01-23 09:25:10,686 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:25:10,688 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-01-23 09:25:10,694 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-01-23 09:35:57,164 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 2532 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 09:35:57,172 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 09:35:58,480 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:35:58,647 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 151ms. Found 3 repository interfaces.
+2020-01-23 09:35:58,648 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:35:58,685 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37ms. Found 3 repository interfaces.
+2020-01-23 09:35:58,688 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:35:58,702 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13ms. Found 1 repository interfaces.
+2020-01-23 09:35:58,703 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:35:58,721 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
+2020-01-23 09:35:58,721 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:35:58,733 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2020-01-23 09:35:59,311 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 09:35:59,428 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 09:35:59,429 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:35:59,430 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:35:59,432 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:35:59,433 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 09:35:59,434 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:35:59,434 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:35:59,707 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 09:35:59,711 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 09:35:59,743 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@2b9f74d0 with name: jasyptStringEncryptor
+2020-01-23 09:36:00,810 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 09:36:01,110 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 09:36:01,114 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 09:36:01,421 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 09:36:02,008 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 09:36:02,320 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 09:36:02,365 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:36:04,249 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:36:04,299 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 09:36:04,396 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 09:36:04,412 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 09:36:04,413 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:36:04,804 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:36:04,827 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 09:36:04,915 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 09:36:06,490 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 09:36:06,551 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 09:36:06,553 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:36:07,551 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:36:07,703 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:36:07,730 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 09:36:07,805 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 09:36:07,831 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 09:36:07,832 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:36:07,856 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:36:07,857 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:36:07,954 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:36:07,995 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 09:36:08,122 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 09:36:08,137 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 09:36:08,138 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:36:08,162 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:36:08,162 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:36:08,215 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:36:08,222 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 09:36:08,223 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 09:36:08,223 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 09:36:08,224 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 09:36:08,226 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 09:36:09,948 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:36:09,994 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:36:10,354 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 14.348 seconds (JVM running for 15.82)
+2020-01-23 09:36:10,357 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BR|12|2020-01-22
+2020-01-23 09:36:10,358 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 09:36:10,766 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 09:36:10,767 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 09:36:10,767 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:36:10,767 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 09:36:10,767 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@61d4e070
+2020-01-23 09:36:10,769 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 09:36:10,770 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 09:36:10,770 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 09:36:10,774 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:36:11,242 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 09:36:11,260 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579793771242,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 12"}]]
+2020-01-23 09:36:11,295 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:36:11,295 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1425
+2020-01-23 09:36:11,295 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:36:11,295 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:36:11,296 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:38:59,358 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 09:39:26,013 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"pan":"5273466299693889","amount_trans":"000000019355","func_code":"450","mess_reason_cod":"4808","org_amoun_trans":"3685.51","intchg_rate_des":"75","acq_bin":"41405","jul_proc_date":"9095","acq_sequ_num":"94827481196","check_digit":"1","emisor":"7","adquirente":"12","fe_proceso":"2020-01-22 00:00:00.0","numeroReferencia":"75414059095948274811961","idBitacoraEmisorCbk":null,"iidcasocontroversia":null,"messreverind":"","cetlsitprc_date":"200122","approval_code":"105078","org_amoun_recon":"000000019355","date_loc_txn":"190404","card_accep_code":"7512","curren_cd_trns":"840","curren_cd_conci":"840","data_record":null,"crd_issuer_ref":"0000225732","trns_dest_inst":"005541","trns_org_inst":"019071","message_number":"00008676","curren_exp":"2","card_trans_type":"00","curren_code":"840","crd_acp_city":"OAXACA DE JUA","crd_acp_zip_cod":"68000","crd_acp_ste_reg":"OA","pos_data":"M10101C11001","crd_acp_name":"ALAMO OAXACA CENTRO","crd_acp_country":"MEX","c_cod_razon_rep":null,"d_cc_imp_tra_rep":null,"d_cc_fec_rem":null,"cbk_ClaimId":3627843,"cbk_Id":200002011694}]]
+2020-01-23 09:39:26,644 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: Etapa: Integridad de Datos 
+2020-01-23 09:39:26,650 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2020-01-23 09:39:26,654 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:39:26,658 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:39:33,239 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2020-01-23 09:42:05,302 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CBK-AA-BR","dtodtFhProcesamiento":1579794125294,"dtodtFechaTrx":1579672800000,"dtoiEmisor":0,"dtoiAdquirente":12,"dtonvNumeroCta":"5273466299693889","dtonvNumeroReferencia":"75414059095948274811961","dtofImporteTrx":19355.0,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":4808,"dtonvTpoAclaracion":"CB1","dtonvCbkIdUnico":"3627843","dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2020-01-23 09:42:05,376 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:42:05,378 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 13534
+2020-01-23 09:42:05,378 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:42:05,379 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:42:05,379 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** INICIA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:42:05,597 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** TERMINA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:42:05,597 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION CC:[1]
+2020-01-23 09:42:05,598 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION RV:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:42:05,722 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION RV: NO HAY REVERSOS NUEVOS**********
+2020-01-23 09:42:05,729 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794125722,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay reversos nuevos de adquiriente 12"}]]
+2020-01-23 09:42:05,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:42:05,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1426
+2020-01-23 09:42:05,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:42:05,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:42:05,766 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO DE CONTROVERSIAS ATENDIDAS:FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:42:05,830 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO DE CONTROVERSIAS ATENDIDAS: NO HAY DATOS ATENDIDOS**********
+2020-01-23 09:42:05,832 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794125831,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay contoversias atendidas con el adquiriente 12"}]]
+2020-01-23 09:42:05,881 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:42:05,882 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1427
+2020-01-23 09:42:05,883 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:42:05,883 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:42:05,883 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2020-01-23 09:42:05,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Inicio: 09:36:10
+2020-01-23 09:42:05,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Fin: 09:42:05
+2020-01-23 09:42:05,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Registros: 1
+2020-01-23 09:42:05,884 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Exitosos: 1
+2020-01-23 09:42:05,885 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Fallidos: 0
+2020-01-23 09:42:05,890 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1579794125885,"dtoiTotalError":0,"dtoiTotalExitosos":1,"dtoiTotalPendientes":0,"dtoiTotalRegistros":1,"dtonvCodigo":"CBK-AA-BR","dtotHoraFin":"09:42:05","dtotHoraInicio":"09:36:10"}]]
+2020-01-23 09:42:05,939 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2020-01-23 09:42:05,939 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1185
+2020-01-23 09:42:05,940 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:42:05,940 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:42:05,952 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:42:05,953 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2020-01-23 09:42:05,971 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2020-01-23 09:42:05,972 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:42:05,973 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2020-01-23 09:42:05,985 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2020-01-23 09:42:06,017 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:42:06,018 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2020-01-23 09:42:06,608 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2020-01-23 09:42:06,612 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:42:06,615 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-01-23 09:42:06,622 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-01-23 09:42:06,624 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:42:06,627 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-01-23 09:42:06,637 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-01-23 09:42:44,628 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 6480 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 09:42:44,637 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 09:42:46,484 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:42:46,640 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 141ms. Found 3 repository interfaces.
+2020-01-23 09:42:46,641 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:42:46,694 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52ms. Found 3 repository interfaces.
+2020-01-23 09:42:46,696 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:42:46,712 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
+2020-01-23 09:42:46,713 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:42:46,725 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2020-01-23 09:42:46,726 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:42:46,737 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2020-01-23 09:42:47,293 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 09:42:47,406 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 09:42:47,407 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:42:47,407 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:42:47,408 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:42:47,409 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 09:42:47,409 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:42:47,410 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:42:47,666 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 09:42:47,670 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 09:42:47,877 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@1cd3b138 with name: jasyptStringEncryptor
+2020-01-23 09:42:48,763 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 09:42:49,002 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 09:42:49,005 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 09:42:49,315 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 09:42:49,839 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 09:42:50,191 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 09:42:50,237 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:42:51,952 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:42:52,013 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 09:42:52,108 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 09:42:52,127 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 09:42:52,128 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:42:52,556 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:42:52,580 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 09:42:52,676 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 09:42:54,757 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 09:42:54,821 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 09:42:54,823 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:42:55,884 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:42:56,082 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:42:56,105 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 09:42:56,213 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 09:42:56,239 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 09:42:56,240 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:42:56,262 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:42:56,263 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:42:56,370 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:42:56,409 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 09:42:56,531 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 09:42:56,549 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 09:42:56,549 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:42:56,571 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:42:56,572 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:42:56,644 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:42:56,650 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 09:42:56,652 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 09:42:56,652 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 09:42:56,653 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 09:42:56,655 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 09:42:58,129 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:42:58,197 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:42:58,576 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 15.185 seconds (JVM running for 16.206)
+2020-01-23 09:42:58,580 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BR|12|2020-01-22
+2020-01-23 09:42:58,581 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 09:42:58,984 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 09:42:58,986 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 09:42:58,986 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:42:58,986 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 09:42:58,987 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@7f8614ce
+2020-01-23 09:42:58,988 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 09:42:58,988 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 09:42:58,989 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 09:42:58,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:42:59,479 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 09:42:59,500 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794179479,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 12"}]]
+2020-01-23 09:42:59,561 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:42:59,561 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1428
+2020-01-23 09:42:59,561 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:42:59,561 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:42:59,562 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:42:59,711 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 09:45:46,476 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 3348 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 09:45:46,486 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 09:45:47,990 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:45:48,201 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 180ms. Found 3 repository interfaces.
+2020-01-23 09:45:48,202 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:45:48,243 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41ms. Found 3 repository interfaces.
+2020-01-23 09:45:48,244 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:45:48,260 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces.
+2020-01-23 09:45:48,262 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:45:48,282 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18ms. Found 1 repository interfaces.
+2020-01-23 09:45:48,283 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:45:48,298 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2020-01-23 09:45:48,860 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 09:45:48,956 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 09:45:48,956 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:45:48,957 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:45:48,957 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:45:48,957 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 09:45:48,958 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:45:48,958 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:45:49,228 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 09:45:49,231 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 09:45:49,255 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@711d1a52 with name: jasyptStringEncryptor
+2020-01-23 09:45:50,125 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 09:45:50,380 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 09:45:50,384 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 09:45:50,689 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 09:45:51,224 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 09:45:51,557 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 09:45:51,603 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:45:53,285 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:45:53,344 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 09:45:53,458 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 09:45:53,477 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 09:45:53,478 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:45:53,865 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:45:53,888 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 09:45:53,974 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 09:45:55,263 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 09:45:55,325 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 09:45:55,327 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:45:56,306 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:45:56,474 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:45:56,498 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 09:45:56,587 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 09:45:56,605 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 09:45:56,607 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:45:56,633 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:45:56,633 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:45:56,757 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:45:56,843 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 09:45:56,989 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 09:45:57,007 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 09:45:57,008 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:45:57,032 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:45:57,032 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:45:57,103 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:45:57,111 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 09:45:57,114 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 09:45:57,114 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 09:45:57,115 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 09:45:57,118 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 09:45:58,662 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:45:58,700 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:45:59,072 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 13.771 seconds (JVM running for 14.817)
+2020-01-23 09:45:59,078 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BR|12|2020-01-22
+2020-01-23 09:45:59,079 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 09:45:59,490 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 09:45:59,491 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 09:45:59,491 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:45:59,491 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 09:45:59,491 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@35408036
+2020-01-23 09:45:59,493 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 09:45:59,493 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 09:45:59,493 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 09:45:59,497 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:45:59,927 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 09:45:59,944 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794359927,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 12"}]]
+2020-01-23 09:45:59,972 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:45:59,972 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1429
+2020-01-23 09:45:59,972 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:45:59,972 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:45:59,973 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:46:00,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 09:46:00,161 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"pan":"5273466299693889","amount_trans":"000000019355","func_code":"450","mess_reason_cod":"4808","org_amoun_trans":"3685.51","intchg_rate_des":"75","acq_bin":"41405","jul_proc_date":"9095","acq_sequ_num":"94827481196","check_digit":"1","emisor":"7","adquirente":"12","fe_proceso":"2020-01-22 00:00:00.0","numeroReferencia":"75414059095948274811961","idBitacoraEmisorCbk":null,"iidcasocontroversia":null,"messreverind":"","cetlsitprc_date":"200122","approval_code":"105078","org_amoun_recon":"000000019355","date_loc_txn":"190404","card_accep_code":"7512","curren_cd_trns":"840","curren_cd_conci":"840","data_record":null,"crd_issuer_ref":"0000225732","trns_dest_inst":"005541","trns_org_inst":"019071","message_number":"00008676","curren_exp":"2","card_trans_type":"00","curren_code":"840","crd_acp_city":"OAXACA DE JUA","crd_acp_zip_cod":"68000","crd_acp_ste_reg":"OA","pos_data":"M10101C11001","crd_acp_name":"ALAMO OAXACA CENTRO","crd_acp_country":"MEX","c_cod_razon_rep":null,"d_cc_imp_tra_rep":null,"d_cc_fec_rem":null,"cbk_ClaimId":3627843,"cbk_Id":200002011694}]]
+2020-01-23 09:46:00,204 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: Etapa: Integridad de Datos 
+2020-01-23 09:46:00,205 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2020-01-23 09:46:00,205 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:46:00,205 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:46:00,227 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2020-01-23 09:46:00,232 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CBK-AA-BR","dtodtFhProcesamiento":1579794360227,"dtodtFechaTrx":1579672800000,"dtoiEmisor":0,"dtoiAdquirente":12,"dtonvNumeroCta":"5273466299693889","dtonvNumeroReferencia":"75414059095948274811961","dtofImporteTrx":19355.0,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":4808,"dtonvTpoAclaracion":"CB1","dtonvCbkIdUnico":"3627843","dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2020-01-23 09:46:00,276 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:46:00,276 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 13535
+2020-01-23 09:46:00,276 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:46:00,276 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:46:00,276 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** INICIA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:46:00,510 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** TERMINA GUARDADO CONTRA CARGOS:***********
+2020-01-23 09:46:00,511 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION CC:[1]
+2020-01-23 09:46:00,512 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION RV:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:46:00,576 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION RV: NO HAY REVERSOS NUEVOS**********
+2020-01-23 09:46:00,578 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794360577,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay reversos nuevos de adquiriente 12"}]]
+2020-01-23 09:46:00,603 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:46:00,604 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1430
+2020-01-23 09:46:00,604 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:46:00,604 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:46:00,604 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO DE CONTROVERSIAS ATENDIDAS:FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:46:00,667 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO DE CONTROVERSIAS ATENDIDAS: NO HAY DATOS ATENDIDOS**********
+2020-01-23 09:46:00,668 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794360667,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay contoversias atendidas con el adquiriente 12"}]]
+2020-01-23 09:46:00,699 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:46:00,699 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1431
+2020-01-23 09:46:00,699 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:46:00,699 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:46:00,699 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2020-01-23 09:46:00,700 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Inicio: 09:45:59
+2020-01-23 09:46:00,700 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Fin: 09:46:00
+2020-01-23 09:46:00,700 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Registros: 1
+2020-01-23 09:46:00,700 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Exitosos: 1
+2020-01-23 09:46:00,700 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Fallidos: 0
+2020-01-23 09:46:00,705 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1579794360700,"dtoiTotalError":0,"dtoiTotalExitosos":1,"dtoiTotalPendientes":0,"dtoiTotalRegistros":1,"dtonvCodigo":"CBK-AA-BR","dtotHoraFin":"09:46:00","dtotHoraInicio":"09:45:59"}]]
+2020-01-23 09:46:00,764 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2020-01-23 09:46:00,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1186
+2020-01-23 09:46:00,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 09:46:00,765 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:46:00,785 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:46:00,789 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2020-01-23 09:46:00,800 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2020-01-23 09:46:00,800 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:46:00,801 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2020-01-23 09:46:00,816 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2020-01-23 09:46:00,825 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:46:00,826 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2020-01-23 09:46:01,182 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2020-01-23 09:46:01,185 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:46:01,188 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-01-23 09:46:01,196 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-01-23 09:46:01,199 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:46:01,202 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-01-23 09:46:01,212 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-01-23 09:47:10,118 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 8460 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 09:47:10,127 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 09:47:11,343 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:47:11,510 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 150ms. Found 3 repository interfaces.
+2020-01-23 09:47:11,511 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:47:11,553 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42ms. Found 3 repository interfaces.
+2020-01-23 09:47:11,554 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:47:11,572 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17ms. Found 1 repository interfaces.
+2020-01-23 09:47:11,573 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:47:11,586 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2020-01-23 09:47:11,589 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 09:47:11,598 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2020-01-23 09:47:12,104 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 09:47:12,196 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 09:47:12,197 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:47:12,197 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:47:12,198 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:47:12,198 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 09:47:12,198 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 09:47:12,199 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 09:47:12,472 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 09:47:12,478 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 09:47:12,518 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@2620e717 with name: jasyptStringEncryptor
+2020-01-23 09:47:13,616 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 09:47:13,867 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 09:47:13,870 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 09:47:14,152 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 09:47:14,693 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 09:47:15,019 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 09:47:15,062 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:47:16,807 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 09:47:16,852 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 09:47:16,954 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 09:47:16,973 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 09:47:16,973 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:47:17,431 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 09:47:17,456 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 09:47:17,565 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 09:47:19,337 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 09:47:19,397 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 09:47:19,398 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:47:20,426 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:47:20,594 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 09:47:20,618 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 09:47:20,698 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 09:47:20,720 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 09:47:20,720 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:47:20,743 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:47:20,744 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 09:47:20,861 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 09:47:20,907 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 09:47:21,021 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 09:47:21,038 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 09:47:21,039 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 09:47:21,061 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:47:21,061 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 09:47:21,159 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 09:47:21,164 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 09:47:21,168 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 09:47:21,168 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 09:47:21,168 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 09:47:21,170 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 09:47:22,751 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:47:22,815 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 09:47:23,184 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 14.262 seconds (JVM running for 15.215)
+2020-01-23 09:47:23,186 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BR|12|2020-01-22
+2020-01-23 09:47:23,187 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 09:47:23,543 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 09:47:23,543 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 09:47:23,543 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:47:23,543 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 09:47:23,543 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@5acbef42
+2020-01-23 09:47:23,544 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 09:47:23,545 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 09:47:23,545 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 09:47:23,547 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:47:23,976 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 09:47:23,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579794443976,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 12"}]]
+2020-01-23 09:47:24,036 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 09:47:24,037 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1432
+2020-01-23 09:47:24,037 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 09:47:24,037 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 09:47:24,038 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 09:49:13,152 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 10:28:48,513 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 10236 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 10:28:48,517 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 10:28:49,590 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:28:49,732 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 127ms. Found 3 repository interfaces.
+2020-01-23 10:28:49,733 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:28:49,768 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35ms. Found 3 repository interfaces.
+2020-01-23 10:28:49,769 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:28:49,781 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11ms. Found 1 repository interfaces.
+2020-01-23 10:28:49,782 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:28:49,803 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 20ms. Found 1 repository interfaces.
+2020-01-23 10:28:49,803 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:28:49,816 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2020-01-23 10:28:50,253 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 10:28:50,337 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 10:28:50,337 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 10:28:50,338 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 10:28:50,338 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 10:28:50,338 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 10:28:50,339 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 10:28:50,339 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 10:28:50,612 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 10:28:50,615 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 10:28:50,640 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@6d2260db with name: jasyptStringEncryptor
+2020-01-23 10:28:51,538 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 10:28:51,689 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 10:28:51,691 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 10:28:51,975 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 10:28:52,364 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 10:28:52,581 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 10:28:52,605 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:28:54,311 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 10:28:54,360 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 10:28:54,482 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 10:28:54,498 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 10:28:54,499 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:28:54,852 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 10:28:54,871 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 10:28:54,963 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 10:28:56,700 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 10:28:56,763 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 10:28:56,765 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:28:57,657 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 10:28:57,772 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 10:28:57,799 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 10:28:57,893 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 10:28:57,912 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 10:28:57,913 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:28:57,937 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 10:28:57,938 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 10:28:58,010 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 10:28:58,052 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 10:28:58,178 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 10:28:58,195 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 10:28:58,196 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:28:58,217 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 10:28:58,217 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 10:28:58,268 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 10:28:58,273 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 10:28:58,274 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 10:28:58,275 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 10:28:58,275 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 10:28:58,276 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 10:28:59,647 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 10:28:59,685 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 10:28:59,956 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 12.628 seconds (JVM running for 13.31)
+2020-01-23 10:28:59,959 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BR|12|2020-01-22
+2020-01-23 10:28:59,960 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 10:29:00,313 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 10:29:00,313 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 10:29:00,313 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:29:00,314 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 10:29:00,314 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@63ff861e
+2020-01-23 10:29:00,315 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 10:29:00,315 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 10:29:00,315 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 10:29:00,320 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:29:00,772 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 10:29:00,787 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579796940772,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 12"}]]
+2020-01-23 10:29:00,813 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:29:00,813 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1433
+2020-01-23 10:29:00,813 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:29:00,813 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:29:00,814 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:29:00,962 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 10:29:00,978 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"pan":"5273466299693889","amount_trans":"000000019355","func_code":"451","mess_reason_cod":"4808","org_amoun_trans":"3685.51","intchg_rate_des":"75","acq_bin":"41405","jul_proc_date":"9095","acq_sequ_num":"94827481196","check_digit":"1","emisor":"7","adquirente":"12","fe_proceso":"2020-01-22 00:00:00.0","numeroReferencia":"75414059095948274811961","idBitacoraEmisorCbk":null,"iidcasocontroversia":null,"messreverind":"","cetlsitprc_date":"200122","approval_code":"105078","org_amoun_recon":"000000019355","date_loc_txn":"190404","card_accep_code":"7512","curren_cd_trns":"840","curren_cd_conci":"840","data_record":null,"crd_issuer_ref":"0000225732","trns_dest_inst":"005541","trns_org_inst":"019071","message_number":"00008676","curren_exp":"2","card_trans_type":"00","curren_code":"840","crd_acp_city":"OAXACA DE JUA","crd_acp_zip_cod":"68000","crd_acp_ste_reg":"OA","pos_data":"M10101C11001","crd_acp_name":"ALAMO OAXACA CENTRO","crd_acp_country":"MEX","c_cod_razon_rep":null,"d_cc_imp_tra_rep":null,"d_cc_fec_rem":null,"cbk_ClaimId":3627843,"cbk_Id":200002011694}]]
+2020-01-23 10:29:01,009 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: Etapa: Integridad de Datos 
+2020-01-23 10:29:01,009 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2020-01-23 10:29:01,009 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 10:29:01,009 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:29:01,051 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2020-01-23 10:29:01,057 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CBK-AA-BR","dtodtFhProcesamiento":1579796941052,"dtodtFechaTrx":1579672800000,"dtoiEmisor":0,"dtoiAdquirente":12,"dtonvNumeroCta":"5273466299693889","dtonvNumeroReferencia":"75414059095948274811961","dtofImporteTrx":19355.0,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":4808,"dtonvTpoAclaracion":"CB2","dtonvCbkIdUnico":"3627843","dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2020-01-23 10:29:01,222 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:29:01,222 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 13536
+2020-01-23 10:29:01,223 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:29:01,223 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:29:01,223 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** INICIA GUARDADO CONTRA CARGOS:***********
+2020-01-23 10:29:01,375 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** TERMINA GUARDADO CONTRA CARGOS:***********
+2020-01-23 10:29:01,375 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION CC:[1]
+2020-01-23 10:29:01,376 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION RV:Adquiriente:12,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:29:01,444 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION RV: NO HAY REVERSOS NUEVOS**********
+2020-01-23 10:29:01,446 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579796941444,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay reversos nuevos de adquiriente 12"}]]
+2020-01-23 10:29:01,495 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:29:01,496 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1434
+2020-01-23 10:29:01,496 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:29:01,496 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:29:01,497 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO DE CONTROVERSIAS ATENDIDAS:FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:29:01,566 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO DE CONTROVERSIAS ATENDIDAS: NO HAY DATOS ATENDIDOS**********
+2020-01-23 10:29:01,567 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579796941566,"dtonvCodigo":"CBK-AA-BR","dtonvDescError":"No hay contoversias atendidas con el adquiriente 12"}]]
+2020-01-23 10:29:01,589 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:29:01,590 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1435
+2020-01-23 10:29:01,590 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:29:01,590 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:29:01,590 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2020-01-23 10:29:01,590 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Inicio: 10:29:00
+2020-01-23 10:29:01,591 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Fin: 10:29:01
+2020-01-23 10:29:01,591 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Registros: 1
+2020-01-23 10:29:01,591 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Exitosos: 1
+2020-01-23 10:29:01,591 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Fallidos: 0
+2020-01-23 10:29:01,595 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1579796941591,"dtoiTotalError":0,"dtoiTotalExitosos":1,"dtoiTotalPendientes":0,"dtoiTotalRegistros":1,"dtonvCodigo":"CBK-AA-BR","dtotHoraFin":"10:29:01","dtotHoraInicio":"10:29:00"}]]
+2020-01-23 10:29:01,640 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2020-01-23 10:29:01,641 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1187
+2020-01-23 10:29:01,641 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 10:29:01,641 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:29:01,662 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 10:29:01,664 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2020-01-23 10:29:01,671 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2020-01-23 10:29:01,671 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 10:29:01,672 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2020-01-23 10:29:01,675 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2020-01-23 10:29:01,677 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 10:29:01,678 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2020-01-23 10:29:02,698 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2020-01-23 10:29:02,699 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 10:29:02,701 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-01-23 10:29:02,707 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-01-23 10:29:02,710 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 10:29:02,712 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-01-23 10:29:02,717 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2020-01-23 10:31:56,865 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 10908 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2020-01-23 10:31:56,870 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-01-23 10:31:57,944 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:31:58,068 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 111ms. Found 3 repository interfaces.
+2020-01-23 10:31:58,069 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:31:58,102 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 33ms. Found 3 repository interfaces.
+2020-01-23 10:31:58,104 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:31:58,116 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2020-01-23 10:31:58,116 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:31:58,138 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 21ms. Found 1 repository interfaces.
+2020-01-23 10:31:58,139 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-23 10:31:58,153 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2020-01-23 10:31:58,573 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2020-01-23 10:31:58,650 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2020-01-23 10:31:58,650 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 10:31:58,651 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 10:31:58,651 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 10:31:58,651 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2020-01-23 10:31:58,652 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2020-01-23 10:31:58,652 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2020-01-23 10:31:58,917 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2020-01-23 10:31:58,921 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2020-01-23 10:31:58,946 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@54f5f647 with name: jasyptStringEncryptor
+2020-01-23 10:31:59,743 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2020-01-23 10:31:59,821 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2020-01-23 10:31:59,823 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2020-01-23 10:32:00,111 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-01-23 10:32:00,499 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-01-23 10:32:00,760 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-01-23 10:32:00,784 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:32:02,090 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 10:32:02,129 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2020-01-23 10:32:02,221 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2020-01-23 10:32:02,241 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2020-01-23 10:32:02,242 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:32:02,592 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 10:32:02,615 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2020-01-23 10:32:02,715 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2020-01-23 10:32:03,875 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2020-01-23 10:32:03,936 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2020-01-23 10:32:03,938 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:32:04,811 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 10:32:04,918 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 10:32:04,944 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2020-01-23 10:32:05,033 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2020-01-23 10:32:05,053 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2020-01-23 10:32:05,054 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:32:05,076 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 10:32:05,077 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2020-01-23 10:32:05,159 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 10:32:05,196 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2020-01-23 10:32:05,331 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2020-01-23 10:32:05,350 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2020-01-23 10:32:05,350 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-01-23 10:32:05,369 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 10:32:05,370 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2020-01-23 10:32:05,435 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 10:32:05,444 [INFO] com.eglobal.ti.cbk.acquirer.AppInitializator [main] AppInitializator initialization logic ...
+2020-01-23 10:32:05,447 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2020-01-23 10:32:05,447 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2020-01-23 10:32:05,447 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2020-01-23 10:32:05,449 [INFO] com.eglobal.ti.cbk.acquirer.InitApplication [main] InitApplication initialization logic ...
+2020-01-23 10:32:06,817 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 10:32:06,852 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2020-01-23 10:32:07,155 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 11.121 seconds (JVM running for 11.819)
+2020-01-23 10:32:07,158 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CBK-AA-BX|26|2020-01-22
+2020-01-23 10:32:07,159 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2020-01-23 10:32:07,462 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2020-01-23 10:32:07,464 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Evaluación Exitosa 
+2020-01-23 10:32:07,465 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:32:07,465 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2020-01-23 10:32:07,465 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@28b286c0
+2020-01-23 10:32:07,467 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2020-01-23 10:32:07,467 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2020-01-23 10:32:07,468 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2020-01-23 10:32:07,475 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO SOLICITUDES NUEVAS:Adquiriente:26,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:32:07,821 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO SOLICITUDES NUEVAS: NO HAY SOLICITUDES NUEVAS**********
+2020-01-23 10:32:07,835 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579797127821,"dtonvCodigo":"CBK-AA-BX","dtonvDescError":"No hay solicitudes de pagare nuevas de adquiriente 26"}]]
+2020-01-23 10:32:07,872 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:32:07,873 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1436
+2020-01-23 10:32:07,873 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:32:07,873 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:32:07,875 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION CC:Adquiriente:26,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:32:08,017 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE CC ADQ***********
+2020-01-23 10:32:08,039 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"pan":"5536360282916097","amount_trans":"000000037530","func_code":"451","mess_reason_cod":"4853","org_amoun_trans":"375.3","intchg_rate_des":"75","acq_bin":"31512","jul_proc_date":"8350","acq_sequ_num":"91039172200","check_digit":"3","emisor":"7","adquirente":"26","fe_proceso":"2020-01-22 00:00:00.0","numeroReferencia":"75315128350910391722003","idBitacoraEmisorCbk":null,"iidcasocontroversia":null,"messreverind":"","cetlsitprc_date":"200122","approval_code":"036807","org_amoun_recon":"000000037530","date_loc_txn":"181215","card_accep_code":"7011","curren_cd_trns":"840","curren_cd_conci":"840","data_record":"CREDIT NOT PROCESSED","crd_issuer_ref":"0004609578","trns_dest_inst":"003006","trns_org_inst":"006282","message_number":"00090281","curren_exp":"2","card_trans_type":"00","curren_code":"840","crd_acp_city":"COZUMEL","crd_acp_zip_cod":"77600","crd_acp_ste_reg":"000","pos_data":"M10110199001","crd_acp_name":"VACATION TA COZUMEL TI","crd_acp_country":"MEX","c_cod_razon_rep":null,"d_cc_imp_tra_rep":null,"d_cc_fec_rem":null,"cbk_Id":200002016011,"cbk_ClaimId":3916270}]]
+2020-01-23 10:32:08,073 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: Etapa: Integridad de Datos 
+2020-01-23 10:32:08,074 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2020-01-23 10:32:08,074 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 10:32:08,075 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:32:08,109 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2020-01-23 10:32:08,118 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CBK-AA-BX","dtodtFhProcesamiento":1579797128110,"dtodtFechaTrx":1579672800000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5536360282916097","dtonvNumeroReferencia":"75315128350910391722003","dtofImporteTrx":37530.0,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":4853,"dtonvTpoAclaracion":"CB2","dtonvCbkIdUnico":"3916270","dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2020-01-23 10:32:08,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:32:08,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 13537
+2020-01-23 10:32:08,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:32:08,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:32:08,259 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** INICIA GUARDADO CONTRA CARGOS:***********
+2020-01-23 10:32:08,431 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** TERMINA GUARDADO CONTRA CARGOS:***********
+2020-01-23 10:32:08,432 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION CC:[1]
+2020-01-23 10:32:08,433 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA CONSULTA/VALIDACION RV:Adquiriente:26,FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:32:08,504 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN CONSULTA/VALIDACION RV: NO HAY REVERSOS NUEVOS**********
+2020-01-23 10:32:08,505 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579797128504,"dtonvCodigo":"CBK-AA-BX","dtonvDescError":"No hay reversos nuevos de adquiriente 26"}]]
+2020-01-23 10:32:08,559 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:32:08,560 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1437
+2020-01-23 10:32:08,560 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:32:08,560 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:32:08,560 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********INICIA PROCESO DE CONTROVERSIAS ATENDIDAS:FechaIni:2020-01-22,FechaFin:2020-01-22
+2020-01-23 10:32:08,627 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] **********FIN PROCESO DE CONTROVERSIAS ATENDIDAS: NO HAY DATOS ATENDIDOS**********
+2020-01-23 10:32:08,628 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtodtFhProcesamiento":1579797128627,"dtonvCodigo":"CBK-AA-BX","dtonvDescError":"No hay contoversias atendidas con el adquiriente 26"}]]
+2020-01-23 10:32:08,672 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2020-01-23 10:32:08,672 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Registro Exitoso || id : 1438
+2020-01-23 10:32:08,672 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: 202 ACCEPTED
+2020-01-23 10:32:08,672 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:32:08,672 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2020-01-23 10:32:08,673 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Inicio: 10:32:07
+2020-01-23 10:32:08,673 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Hora Fin: 10:32:08
+2020-01-23 10:32:08,673 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Registros: 1
+2020-01-23 10:32:08,673 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Exitosos: 1
+2020-01-23 10:32:08,673 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.ClarificationsAdqServiceImpl [main] Total Fallidos: 0
+2020-01-23 10:32:08,677 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1579797128673,"dtoiTotalError":0,"dtoiTotalExitosos":1,"dtoiTotalPendientes":0,"dtoiTotalRegistros":1,"dtonvCodigo":"CBK-AA-BX","dtotHoraFin":"10:32:08","dtotHoraInicio":"10:32:07"}]]
+2020-01-23 10:32:08,724 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2020-01-23 10:32:08,725 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1188
+2020-01-23 10:32:08,726 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2020-01-23 10:32:08,726 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2020-01-23 10:32:08,772 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2020-01-23 10:32:08,773 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2020-01-23 10:32:08,782 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2020-01-23 10:32:08,786 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2020-01-23 10:32:08,787 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2020-01-23 10:32:08,791 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2020-01-23 10:32:08,791 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2020-01-23 10:32:08,792 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2020-01-23 10:32:09,085 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2020-01-23 10:32:09,086 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2020-01-23 10:32:09,088 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2020-01-23 10:32:09,094 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2020-01-23 10:32:09,094 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2020-01-23 10:32:09,096 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2020-01-23 10:32:09,102 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.

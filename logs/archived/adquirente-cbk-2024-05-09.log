@@ -1,0 +1,146 @@
+2024-05-09 22:39:14,357 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on D-PMERA7216 with PID 1848 (started by era7216 in C:\Users\era7216\Documents\Batch- Devoluciones\devoluciones-jar)
+2024-05-09 22:39:14,431 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-05-09 22:39:15,839 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2024-05-09 22:39:15,926 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2024-05-09 22:39:15,940 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:39:15,940 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:39:15,940 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-05-09 22:39:16,328 [WARN] org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-05-09 22:39:16,336 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-09 22:39:16,338 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-05-09 22:47:47,783 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on D-PMERA7216 with PID 17228 (started by era7216 in C:\Users\era7216\Documents\Batch- Devoluciones\devoluciones-jar)
+2024-05-09 22:47:47,785 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-05-09 22:47:48,344 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2024-05-09 22:47:48,399 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2024-05-09 22:47:48,400 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:47:48,400 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:47:48,400 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-05-09 22:47:48,565 [WARN] org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-05-09 22:47:48,571 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-09 22:47:48,574 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-05-09 22:54:01,994 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on D-PMERA7216 with PID 7768 (started by era7216 in C:\Users\era7216\Documents\Batch- Devoluciones\devoluciones-jar)
+2024-05-09 22:54:01,997 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-05-09 22:54:02,651 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-05-09 22:54:02,804 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 142ms. Found 0 repository interfaces.
+2024-05-09 22:54:03,029 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2024-05-09 22:54:03,083 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2024-05-09 22:54:03,084 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-05-09 22:54:03,084 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:54:03,085 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:54:03,085 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-05-09 22:54:03,218 [WARN] org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2024-05-09 22:54:03,225 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-05-09 22:54:03,228 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-05-09 22:56:25,616 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on D-PMERA7216 with PID 18180 (started by era7216 in C:\Users\era7216\Documents\Batch- Devoluciones\devoluciones-jar)
+2024-05-09 22:56:25,618 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-05-09 22:56:26,074 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-05-09 22:56:26,131 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2024-05-09 22:56:26,338 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2024-05-09 22:56:26,393 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2024-05-09 22:56:26,393 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2024-05-09 22:56:26,393 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:56:26,394 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:56:26,394 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-05-09 22:56:27,474 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-09 22:56:27,678 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-09 22:56:27,858 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-05-09 22:56:27,997 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2024-05-09 22:56:27,999 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2024-05-09 22:56:28,482 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-05-09 22:56:30,169 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-09 22:56:30,633 [INFO] org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@65bdd558'
+2024-05-09 22:56:30,636 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 22:56:31,025 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 5.807 seconds (JVM running for 6.251)
+2024-05-09 22:56:31,028 [INFO] com.eglobal.ti.devoluciones.jar.AppLauncher [main] Application started with arguments: 20240101-rs-1-12
+2024-05-09 22:56:31,033 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 22:56:31,034 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-2] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-05-09 22:56:31,042 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2024-05-09 22:56:31,045 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2024-05-09 22:58:48,947 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on D-PMERA7216 with PID 6576 (started by era7216 in C:\Users\era7216\Documents\Batch- Devoluciones\devoluciones-jar)
+2024-05-09 22:58:48,950 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-05-09 22:58:49,411 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-05-09 22:58:49,468 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2024-05-09 22:58:49,665 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2024-05-09 22:58:49,719 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2024-05-09 22:58:49,720 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:58:49,720 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2024-05-09 22:58:49,721 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2024-05-09 22:58:50,027 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-05-09 22:58:50,178 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-05-09 22:58:50,255 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-05-09 22:58:50,348 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2024-05-09 22:58:50,350 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2024-05-09 22:58:50,504 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-05-09 22:58:50,816 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-05-09 22:58:51,098 [INFO] org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@62db3891'
+2024-05-09 22:58:51,100 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 22:58:51,367 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 2.815 seconds (JVM running for 3.266)
+2024-05-09 22:58:51,369 [INFO] com.eglobal.ti.devoluciones.jar.AppLauncher [main] Application started with arguments: 
+2024-05-09 22:58:51,375 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09 22:58:51,375 [INFO] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-2] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-05-09 22:58:51,379 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2024-05-09 22:58:51,380 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,836 @@
+2019-11-20 09:40:58,479 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 16672 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2019-11-20 09:40:58,518 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-20 09:41:01,893 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:41:02,086 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 181ms. Found 3 repository interfaces.
+2019-11-20 09:41:02,087 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:41:02,125 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37ms. Found 3 repository interfaces.
+2019-11-20 09:41:02,126 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:41:02,143 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17ms. Found 1 repository interfaces.
+2019-11-20 09:41:02,148 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:41:02,169 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19ms. Found 1 repository interfaces.
+2019-11-20 09:41:02,170 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:41:02,185 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14ms. Found 1 repository interfaces.
+2019-11-20 09:41:02,758 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2019-11-20 09:59:56,870 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 7124 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2019-11-20 09:59:56,882 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-20 09:59:57,722 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:59:57,871 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 135ms. Found 3 repository interfaces.
+2019-11-20 09:59:57,871 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:59:57,922 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50ms. Found 3 repository interfaces.
+2019-11-20 09:59:57,923 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:59:57,936 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12ms. Found 1 repository interfaces.
+2019-11-20 09:59:57,937 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:59:57,952 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-11-20 09:59:57,954 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 09:59:57,969 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-11-20 09:59:58,946 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2019-11-20 09:59:59,100 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-20 09:59:59,101 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-20 09:59:59,101 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 09:59:59,102 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 09:59:59,110 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-20 09:59:59,110 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 09:59:59,111 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-20 09:59:59,506 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-20 09:59:59,509 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-20 09:59:59,615 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@71652c98 with name: jasyptStringEncryptor
+2019-11-20 10:00:00,442 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2019-11-20 10:00:00,545 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-11-20 10:00:00,547 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-11-20 10:00:00,863 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-20 10:00:01,210 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:00:32,807 [ERROR] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:179)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:119)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:904)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:00:32,808 [WARN] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+2019-11-20 10:00:32,835 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:00:32,865 [INFO] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-11-20 10:00:34,182 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:01:05,733 [ERROR] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:460)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:01:05,735 [ERROR] org.hibernate.hql.spi.id.IdTableHelper [main] Unable obtain JDBC Connection
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:460)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:01:05,770 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2019-11-20 10:01:05,794 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:01:37,332 [ERROR] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:123)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.lambda$isInitializingDatabase$0(DataSourceInitializedPublisher.java:114)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:99)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:91)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.isInitializingDatabase(DataSourceInitializedPublisher.java:116)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:96)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:88)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:01:37,431 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2019-11-20 10:01:37,569 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2019-11-20 10:01:37,921 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2019-11-20 10:01:37,930 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:01:38,391 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2019-11-20 10:01:38,414 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2019-11-20 10:01:38,507 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2019-11-20 10:01:40,542 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2019-11-20 10:01:40,603 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2019-11-20 10:01:40,604 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:01:41,563 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:01:41,835 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2019-11-20 10:01:41,860 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2019-11-20 10:01:41,953 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2019-11-20 10:01:41,982 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2019-11-20 10:01:41,983 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:01:42,033 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2019-11-20 10:01:42,033 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2019-11-20 10:01:42,115 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2019-11-20 10:01:42,158 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2019-11-20 10:01:42,363 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2019-11-20 10:01:42,381 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2019-11-20 10:01:42,382 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:01:42,401 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2019-11-20 10:01:42,401 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2019-11-20 10:01:42,455 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2019-11-20 10:01:42,459 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2019-11-20 10:01:42,460 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2019-11-20 10:01:42,460 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2019-11-20 10:01:43,982 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:01:44,014 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:01:44,409 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 108.278 seconds (JVM running for 109.058)
+2019-11-20 10:01:44,412 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CC-A-BX|26|2019-11-19
+2019-11-20 10:01:44,413 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2019-11-20 10:01:45,312 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] *********** VALIDACION DE PARAMETROS ***********
+2019-11-20 10:01:45,312 [ERROR] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] El servicio de validación de parámetros no se encuentra disponible: 404 Not Found
+2019-11-20 10:01:45,312 [WARN] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** La petición no puede ser procesada: null ***********
+2019-11-20 10:01:45,389 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2019-11-20 10:01:45,391 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-5 - Shutdown initiated...
+2019-11-20 10:01:45,396 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-5 - Shutdown completed.
+2019-11-20 10:01:45,396 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2019-11-20 10:01:45,397 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-4 - Shutdown initiated...
+2019-11-20 10:01:45,401 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-4 - Shutdown completed.
+2019-11-20 10:01:45,401 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2019-11-20 10:01:45,402 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-3 - Shutdown initiated...
+2019-11-20 10:01:46,165 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-3 - Shutdown completed.
+2019-11-20 10:01:46,165 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2019-11-20 10:01:46,166 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-2 - Shutdown initiated...
+2019-11-20 10:01:46,167 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-2 - Shutdown completed.
+2019-11-20 10:01:46,168 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2019-11-20 10:24:57,134 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 2584 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2019-11-20 10:24:57,139 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-20 10:24:58,028 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:24:58,162 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 121ms. Found 3 repository interfaces.
+2019-11-20 10:24:58,163 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:24:58,194 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 31ms. Found 3 repository interfaces.
+2019-11-20 10:24:58,194 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:24:58,203 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2019-11-20 10:24:58,203 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:24:58,211 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 7ms. Found 1 repository interfaces.
+2019-11-20 10:24:58,212 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:24:58,231 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18ms. Found 1 repository interfaces.
+2019-11-20 10:24:58,706 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2019-11-20 10:24:59,047 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-20 10:24:59,049 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-20 10:24:59,049 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 10:24:59,050 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 10:24:59,050 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-20 10:24:59,050 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 10:24:59,056 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-20 10:24:59,428 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-20 10:24:59,430 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-20 10:24:59,474 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@5cad8b7d with name: jasyptStringEncryptor
+2019-11-20 10:25:00,260 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2019-11-20 10:25:00,339 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-11-20 10:25:00,341 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-11-20 10:25:00,619 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-20 10:25:00,981 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:25:32,587 [ERROR] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:179)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:119)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:904)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:25:32,588 [WARN] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator [main] HHH000342: Could not obtain connection to query metadata : The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+2019-11-20 10:25:32,620 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:25:32,647 [INFO] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-11-20 10:25:33,734 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:26:05,275 [ERROR] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:460)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:26:05,277 [ERROR] org.hibernate.hql.spi.id.IdTableHelper [main] Unable obtain JDBC Connection
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.SessionFactoryImpl$1.obtainConnection(SessionFactoryImpl.java:460)
+	at org.hibernate.hql.spi.id.IdTableHelper.executeIdTableCreationStatements(IdTableHelper.java:67)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:125)
+	at org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy.finishPreparation(GlobalTemporaryTableBulkIdStrategy.java:42)
+	at org.hibernate.hql.spi.id.AbstractMultiTableBulkIdStrategyImpl.prepare(AbstractMultiTableBulkIdStrategyImpl.java:88)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:303)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:26:05,297 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2019-11-20 10:26:05,317 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:26:36,867 [ERROR] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Exception during pool initialization.
+com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 172.29.4.182, named instance sql2008r2des01 failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:228)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.getInstancePort(SQLServerConnection.java:5465)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.primaryPermissionCheck(SQLServerConnection.java:2151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1903)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1762)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:1077)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:623)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:123)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.lambda$isInitializingDatabase$0(DataSourceInitializedPublisher.java:114)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:130)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:99)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:91)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.isInitializingDatabase(DataSourceInitializedPublisher.java:116)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:96)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:88)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1749)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.eglobal.ti.cbk.acquirer.AppLauncher.main(AppLauncher.java:29)
+2019-11-20 10:26:36,935 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2019-11-20 10:26:37,084 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2019-11-20 10:26:37,268 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2019-11-20 10:26:37,277 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:37,896 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2019-11-20 10:26:37,928 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2019-11-20 10:26:38,052 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2019-11-20 10:26:39,570 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2019-11-20 10:26:39,630 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2019-11-20 10:26:39,630 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:40,804 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:26:40,944 [INFO] org.springframework.boot.StartupInfoLogger [main] Starting AppLauncher on L_P3PINTERW27 with PID 19384 (C:\Users\pinterw27\eclipse-transformador\adquirente-cbk\target\classes started by pinterw27 in C:\Users\pinterw27\eclipse-transformador\adquirente-cbk)
+2019-11-20 10:26:40,949 [INFO] org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-20 10:26:41,422 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2019-11-20 10:26:41,594 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2019-11-20 10:26:41,835 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2019-11-20 10:26:41,869 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2019-11-20 10:26:41,870 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:41,910 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2019-11-20 10:26:41,910 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2019-11-20 10:26:42,056 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2019-11-20 10:26:42,166 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2019-11-20 10:26:42,519 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2019-11-20 10:26:42,541 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2019-11-20 10:26:42,541 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:42,628 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2019-11-20 10:26:42,629 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2019-11-20 10:26:42,842 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2019-11-20 10:26:42,848 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2019-11-20 10:26:42,848 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2019-11-20 10:26:42,849 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2019-11-20 10:26:44,626 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:26:45,539 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 888ms. Found 3 repository interfaces.
+2019-11-20 10:26:45,540 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:26:45,717 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 176ms. Found 3 repository interfaces.
+2019-11-20 10:26:45,722 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:26:45,737 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15ms. Found 1 repository interfaces.
+2019-11-20 10:26:45,738 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:26:45,981 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 242ms. Found 1 repository interfaces.
+2019-11-20 10:26:45,983 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-20 10:26:45,994 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 10ms. Found 1 repository interfaces.
+2019-11-20 10:26:46,814 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:26:46,892 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:26:47,408 [INFO] com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [main] Post-processing PropertySource instances
+2019-11-20 10:26:47,726 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-11-20 10:26:47,727 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource commandLineArgs [org.springframework.core.env.SimpleCommandLinePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-20 10:26:47,728 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 10:26:47,728 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 10:26:47,729 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-11-20 10:26:47,729 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-11-20 10:26:47,729 [INFO] com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [main] Converting PropertySource URL [file:C:/Users/pinterw27/Documents/properties/adquirente-config.properties] [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-11-20 10:26:48,097 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 111.744 seconds (JVM running for 112.428)
+2019-11-20 10:26:48,101 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CC-A-BX|26|2019-11-19
+2019-11-20 10:26:48,102 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2019-11-20 10:26:48,491 [INFO] com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [main] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-11-20 10:26:48,495 [INFO] com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [main] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-11-20 10:26:48,526 [INFO] com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [main] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@28fa700e with name: jasyptStringEncryptor
+2019-11-20 10:26:49,947 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2019-11-20 10:26:49,949 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2019-11-20 10:26:49,951 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:49,952 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2019-11-20 10:26:49,953 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@5e1e19af
+2019-11-20 10:26:49,953 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2019-11-20 10:26:49,953 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2019-11-20 10:26:49,954 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2019-11-20 10:26:50,020 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] *********** CONSULTA DE TRAMITES EN BD EVO BANAMEX ***********
+2019-11-20 10:26:50,021 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] **********INICIA PROCESO CC:Adquiriente:26,FechaIni:2019-11-19,FechaFin:2019-11-19
+2019-11-20 10:26:50,021 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] **********INICIA PROCESO SP***********
+2019-11-20 10:26:50,271 [DEBUG] org.springframework.jdbc.core.JdbcTemplate [main] Calling stored procedure [{call spObtenerContracargosMC(?, ?, ?, ?)}]
+2019-11-20 10:26:50,545 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE SOLICITUDES***********
+2019-11-20 10:26:50,578 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dCcFecRem":1571288400000,"dCcFolEgl":1,"cAdqNumero":26,"dCcCodTra":450,"cEmiNumero":7,"cCodrazClave":0,"cCodRazon2":null,"dCcCodUso":null,"cNegNumero":"1071729   ","cStaClave":"X","dCcNumSuc":null,"dCcNumAut":"07030Z","dCcNumCta":"5178058017870224   ","dCcNumRef":"75435299029510717295398","dCcImpTra":2.5800,"dCcImpTraOri":0.4900,"dCcFeTxn":"190128  ","dCcFeTxn2":1548655200000,"dCcMerchId":null,"dCcCurrencyCode":null,"codPaisNeg":"MEX","dCcTipmonOri":"840","dCcTipmonDes":null,"pan":null,"amountTrans":"2.5800","amountReconci":null,"dCcImpTraDeudor":null,"dCcImpTipocamCont":null,"dCcImpEspPeso":null,"dCcImpEspUsd":null,"dCcImpCashback":null,"dCcImpCashadvance":null,"idCasoControversia":null,"cbkid":0,"cbkclaimid":200002011580,"dccimptrarep":0.0,"dCcinddoc":0,"dCcMenExhibit":null,"validationId":null,"funcode":null,"codRazonRep":0},{"dCcFecRem":1571288400000,"dCcFolEgl":2,"cAdqNumero":26,"dCcCodTra":450,"cEmiNumero":7,"cCodrazClave":0,"cCodRazon2":null,"dCcCodUso":null,"cNegNumero":"5046370   ","cStaClave":"X","dCcNumSuc":null,"dCcNumAut":"041493","dCcNumCta":"5156767884047809   ","dCcNumRef":"75435299015550463704215","dCcImpTra":48.8000,"dCcImpTraOri":9.2500,"dCcFeTxn":"190114  ","dCcFeTxn2":1547445600000,"dCcMerchId":null,"dCcCurrencyCode":null,"codPaisNeg":"MEX","dCcTipmonOri":"840","dCcTipmonDes":null,"pan":null,"amountTrans":"48.8000","amountReconci":null,"dCcImpTraDeudor":null,"dCcImpTipocamCont":null,"dCcImpEspPeso":null,"dCcImpEspUsd":null,"dCcImpCashback":null,"dCcImpCashadvance":null,"idCasoControversia":null,"cbkid":0,"cbkclaimid":200002011584,"dccimptrarep":0.0,"dCcinddoc":0,"dCcMenExhibit":null,"validationId":null,"funcode":null,"codRazonRep":0},{"dCcFecRem":1571288400000,"dCcFolEgl":5,"cAdqNumero":26,"dCcCodTra":450,"cEmiNumero":7,"cCodrazClave":0,"cCodRazon2":null,"dCcCodUso":null,"cNegNumero":"1055430   ","cStaClave":"Z","dCcNumSuc":null,"dCcNumAut":"08595P","dCcNumCta":"5524334662859692   ","dCcNumRef":"75435298318910554303655","dCcImpTra":369.0800,"dCcImpTraOri":74.9700,"dCcFeTxn":"181113  ","dCcFeTxn2":1542088800000,"dCcMerchId":null,"dCcCurrencyCode":null,"codPaisNeg":"MEX","dCcTipmonOri":"840","dCcTipmonDes":null,"pan":null,"amountTrans":"369.0800","amountReconci":null,"dCcImpTraDeudor":null,"dCcImpTipocamCont":null,"dCcImpEspPeso":null,"dCcImpEspUsd":null,"dCcImpCashback":null,"dCcImpCashadvance":null,"idCasoControversia":null,"cbkid":0,"cbkclaimid":200002011596,"dccimptrarep":0.0,"dCcinddoc":0,"dCcMenExhibit":null,"validationId":null,"funcode":null,"codRazonRep":0}]]
+2019-11-20 10:26:50,829 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: 
+2019-11-20 10:26:50,830 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:26:50,830 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 200 OK
+2019-11-20 10:26:50,830 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:50,854 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2019-11-20 10:26:50,861 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CC-A-BX","dtodtFhProcesamiento":1574267210854,"dtodtFechaTrx":1548655200000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5178058017870224   ","dtonvNumeroReferencia":"75435299029510717295398","dtofImporteTrx":2.58,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":0,"dtonvTpoAclaracion":null,"dtonvCbkIdUnico":null,"dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2019-11-20 10:26:51,051 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2019-11-20 10:26:51,051 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 13335
+2019-11-20 10:26:51,052 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:51,052 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:51,058 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2019-11-20 10:26:51,061 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CC-A-BX","dtodtFhProcesamiento":1574267211058,"dtodtFechaTrx":1547445600000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5156767884047809   ","dtonvNumeroReferencia":"75435299015550463704215","dtofImporteTrx":48.8,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":0,"dtonvTpoAclaracion":null,"dtonvCbkIdUnico":null,"dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2019-11-20 10:26:51,096 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2019-11-20 10:26:51,096 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 13336
+2019-11-20 10:26:51,096 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:51,096 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:51,104 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2019-11-20 10:26:51,107 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CC-A-BX","dtodtFhProcesamiento":1574267211104,"dtodtFechaTrx":1542088800000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5524334662859692   ","dtonvNumeroReferencia":"75435298318910554303655","dtofImporteTrx":369.08,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":0,"dtonvTpoAclaracion":null,"dtonvCbkIdUnico":null,"dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2019-11-20 10:26:51,140 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2019-11-20 10:26:51,140 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 13337
+2019-11-20 10:26:51,140 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:51,140 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:51,141 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] ***FILTRA REGISTROS CON ESTATUS N***
+2019-11-20 10:26:51,145 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] ***ENVIO DE DATOS A SERVICIO CBK BUSINESS DATA***
+2019-11-20 10:26:51,153 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[{"cardNumber":"5178058017870224   ","transactionAmount":0.0,"transactionDate":1548655200000,"transactionType":"0","nodePath":"/Root","claimCbkId":200002011580,"arn":"75435299029510717295398","codeCurrency":"USD","reasonCode":"0","bgIdBitacoraEmisor":null,"iFolioEGL":"1","dtFechaRemesa":null,"codigoStaclave":"X","montoParcial":false,"fechafraude":null,"tipoFraude":null,"chargebackCB2DTO":null,"chargebackCB1DTO":{"createCB1Amount":0.0,"createCB1CredPostedAsPurchase":null,"createCB1Currency":"USD","createCB1DocInd":"0","createCB1MMT":"0","createCB1PartialCB":false,"createCB1Reason":"0","createCB1NBInstallments":null,"supportDocId":null},"subFraude":null}]
+2019-11-20 10:26:51,867 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbr
+	...]
+2019-11-20 10:26:52,157 [INFO] org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.7.Final}
+2019-11-20 10:26:52,159 [INFO] org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-11-20 10:26:52,553 [INFO] org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-20 10:26:53,099 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-11-20 10:26:53,328 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-11-20 10:26:53,352 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:54,721 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2019-11-20 10:26:54,766 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserveradqbx
+	...]
+2019-11-20 10:26:54,884 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Starting...
+2019-11-20 10:26:54,900 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-2 - Start completed.
+2019-11-20 10:26:54,901 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:55,523 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2019-11-20 10:26:55,892 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: oraCbkAdm
+	...]
+2019-11-20 10:26:56,215 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Starting...
+2019-11-20 10:26:56,967 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Mensaje: Etapa: Actualización datos de comercio en CBK
+2019-11-20 10:26:56,967 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Detalle Mensaje: Actualización exitosa
+2019-11-20 10:26:56,967 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:56,967 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:56,972 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"bgIdDetRespEmiCbk":null,"cEstatusBDEmi":"OK","nvEstatusBDDesc":"Éxito","dtFhRespuestaCbk":1574267216968,"nvRespuestaCbk":null,"cEstatusRespCbk":"OK","nvEstatusRespDesc":"Actualización exitosa en CBK","bgIdBitacoraEmi":13335}]]
+2019-11-20 10:26:57,137 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Resultado de Petición CBK
+2019-11-20 10:26:57,137 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:26:57,137 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:57,137 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:57,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[{"cardNumber":"5156767884047809   ","transactionAmount":0.0,"transactionDate":1547445600000,"transactionType":"0","nodePath":"/Root","claimCbkId":200002011584,"arn":"75435299015550463704215","codeCurrency":"USD","reasonCode":"0","bgIdBitacoraEmisor":null,"iFolioEGL":"2","dtFechaRemesa":null,"codigoStaclave":"X","montoParcial":false,"fechafraude":null,"tipoFraude":null,"chargebackCB2DTO":null,"chargebackCB1DTO":{"createCB1Amount":0.0,"createCB1CredPostedAsPurchase":null,"createCB1Currency":"USD","createCB1DocInd":"0","createCB1MMT":"0","createCB1PartialCB":false,"createCB1Reason":"0","createCB1NBInstallments":null,"supportDocId":null},"subFraude":null}]
+2019-11-20 10:26:58,014 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Mensaje: Etapa: Actualización datos de comercio en CBK
+2019-11-20 10:26:58,015 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Detalle Mensaje: Actualización exitosa
+2019-11-20 10:26:58,016 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:58,017 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:58,029 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"bgIdDetRespEmiCbk":null,"cEstatusBDEmi":"OK","nvEstatusBDDesc":"Éxito","dtFhRespuestaCbk":1574267218018,"nvRespuestaCbk":null,"cEstatusRespCbk":"OK","nvEstatusRespDesc":"Actualización exitosa en CBK","bgIdBitacoraEmi":13336}]]
+2019-11-20 10:26:58,073 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Resultado de Petición CBK
+2019-11-20 10:26:58,074 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:26:58,074 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:58,074 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:58,079 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[{"cardNumber":"5524334662859692   ","transactionAmount":0.0,"transactionDate":1542088800000,"transactionType":"0","nodePath":"/Root","claimCbkId":200002011596,"arn":"75435298318910554303655","codeCurrency":"USD","reasonCode":"0","bgIdBitacoraEmisor":null,"iFolioEGL":"5","dtFechaRemesa":null,"codigoStaclave":"Z","montoParcial":false,"fechafraude":null,"tipoFraude":null,"chargebackCB2DTO":null,"chargebackCB1DTO":{"createCB1Amount":0.0,"createCB1CredPostedAsPurchase":null,"createCB1Currency":"USD","createCB1DocInd":"0","createCB1MMT":"0","createCB1PartialCB":false,"createCB1Reason":"0","createCB1NBInstallments":null,"supportDocId":null},"subFraude":null}]
+2019-11-20 10:26:58,102 [INFO] com.zaxxer.hikari.pool.PoolBase [main] HikariPool-3 - Driver does not support get/set network timeout for connections. (null)
+2019-11-20 10:26:58,162 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-3 - Start completed.
+2019-11-20 10:26:58,162 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:58,909 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Mensaje: Etapa: Actualización datos de comercio en CBK
+2019-11-20 10:26:58,909 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Detalle Mensaje: Actualización exitosa
+2019-11-20 10:26:58,910 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:58,910 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:58,914 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"bgIdDetRespEmiCbk":null,"cEstatusBDEmi":"OK","nvEstatusBDDesc":"Éxito","dtFhRespuestaCbk":1574267218910,"nvRespuestaCbk":null,"cEstatusRespCbk":"OK","nvEstatusRespDesc":"Actualización exitosa en CBK","bgIdBitacoraEmi":13337}]]
+2019-11-20 10:26:58,934 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Resultado de Petición CBK
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Hora Inicio: 10:26:50
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Hora Fin: 10:26:58
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Registros: 3
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Exitosos: 0
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Pendientes: 0
+2019-11-20 10:26:58,935 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Fallidos: 3
+2019-11-20 10:26:58,938 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1574267218936,"dtoiTotalError":3,"dtoiTotalExitosos":0,"dtoiTotalPendientes":0,"dtoiTotalRegistros":3,"dtonvCodigo":"CC-A-BX","dtotHoraFin":"10:26:58","dtotHoraInicio":"10:26:50"}]]
+2019-11-20 10:26:58,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2019-11-20 10:26:58,994 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1053
+2019-11-20 10:26:58,995 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:26:58,995 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:26:59,007 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2019-11-20 10:26:59,009 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown initiated...
+2019-11-20 10:26:59,023 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-5 - Shutdown completed.
+2019-11-20 10:26:59,023 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2019-11-20 10:26:59,024 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown initiated...
+2019-11-20 10:26:59,043 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-4 - Shutdown completed.
+2019-11-20 10:26:59,044 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2019-11-20 10:26:59,065 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown initiated...
+2019-11-20 10:26:59,288 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:26:59,411 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2019-11-20 10:26:59,496 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhiscc
+	...]
+2019-11-20 10:26:59,644 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Starting...
+2019-11-20 10:26:59,668 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-4 - Start completed.
+2019-11-20 10:26:59,669 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:26:59,717 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-3 - Shutdown completed.
+2019-11-20 10:26:59,717 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2019-11-20 10:26:59,724 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown initiated...
+2019-11-20 10:26:59,752 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2019-11-20 10:26:59,752 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hiscc.entity.IMssChargebackPK
+2019-11-20 10:26:59,795 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-2 - Shutdown completed.
+2019-11-20 10:26:59,800 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2019-11-20 10:27:00,153 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2019-11-20 10:27:00,375 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: sqlserverhissol
+	...]
+2019-11-20 10:27:00,562 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Starting...
+2019-11-20 10:27:00,585 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-5 - Start completed.
+2019-11-20 10:27:00,586 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-11-20 10:27:00,606 [WARN] org.hibernate.mapping.RootClass [main] HHH000038: Composite-id class does not override equals(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2019-11-20 10:27:00,606 [WARN] org.hibernate.mapping.RootClass [main] HHH000039: Composite-id class does not override hashCode(): com.eglobal.ti.cbk.acquirer.hissp.entity.IMssRetrievalPK
+2019-11-20 10:27:00,709 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2019-11-20 10:27:00,716 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiIntegrity
+2019-11-20 10:27:00,716 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerDms
+2019-11-20 10:27:00,717 [INFO] org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static java.lang.String com.eglobal.ti.cbk.acquirer.ApplicationConfig.urlApiManagerCbk
+2019-11-20 10:27:01,925 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:27:01,962 [INFO] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2019-11-20 10:27:02,368 [INFO] org.springframework.boot.StartupInfoLogger [main] Started AppLauncher in 22.423 seconds (JVM running for 23.282)
+2019-11-20 10:27:02,371 [INFO] com.eglobal.ti.cbk.acquirer.AppLauncher [main] Application started with arguments: CC-A-BX|26|2019-11-19
+2019-11-20 10:27:02,372 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.InitApplicationServiceImpl [main] *********** VALIDACIÓN DE PARÁMETROS ***********
+2019-11-20 10:27:02,703 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Mensaje: Etapa: Evaluación de Parámetros 
+2019-11-20 10:27:02,703 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Detalle Mensaje: Evaluación Exitosa 
+2019-11-20 10:27:02,703 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:02,703 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Code: 202
+2019-11-20 10:27:02,704 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Respuesta de evaluación de parámetros:com.eglobal.ti.cbk.acquirer.ws.response.ResponseRestApi@4769e70c
+2019-11-20 10:27:02,704 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] Codigo: 202
+2019-11-20 10:27:02,704 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] HttpStatus: 202 ACCEPTED
+2019-11-20 10:27:02,704 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.EvalParametersServiceImpl [main] MensajeEvalParam: Evaluación Exitosa 
+2019-11-20 10:27:02,707 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] *********** CONSULTA DE TRAMITES EN BD EVO BANAMEX ***********
+2019-11-20 10:27:02,708 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] **********INICIA PROCESO CC:Adquiriente:26,FechaIni:2019-11-19,FechaFin:2019-11-19
+2019-11-20 10:27:02,708 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] **********INICIA PROCESO SP***********
+2019-11-20 10:27:02,731 [DEBUG] org.springframework.jdbc.core.JdbcTemplate [main] Calling stored procedure [{call spObtenerContracargosMC(?, ?, ?, ?)}]
+2019-11-20 10:27:02,965 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] *********** VALIDACIÓN DE INTEGRIDAD DE DATOS DE SOLICITUDES***********
+2019-11-20 10:27:03,033 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dCcFecRem":1571288400000,"dCcFolEgl":1,"cAdqNumero":26,"dCcCodTra":450,"cEmiNumero":7,"cCodrazClave":0,"cCodRazon2":null,"dCcCodUso":null,"cNegNumero":"1071729   ","cStaClave":"X","dCcNumSuc":null,"dCcNumAut":"07030Z","dCcNumCta":"5178058017870224   ","dCcNumRef":"75435299029510717295398","dCcImpTra":2.5800,"dCcImpTraOri":0.4900,"dCcFeTxn":"190128  ","dCcFeTxn2":1548655200000,"dCcMerchId":null,"dCcCurrencyCode":null,"codPaisNeg":"MEX","dCcTipmonOri":"840","dCcTipmonDes":null,"pan":null,"amountTrans":"2.5800","amountReconci":null,"dCcImpTraDeudor":null,"dCcImpTipocamCont":null,"dCcImpEspPeso":null,"dCcImpEspUsd":null,"dCcImpCashback":null,"dCcImpCashadvance":null,"idCasoControversia":null,"cbkid":0,"cbkclaimid":200002011580,"dccimptrarep":0.0,"dCcinddoc":0,"dCcMenExhibit":null,"validationId":null,"funcode":null,"codRazonRep":0},{"dCcFecRem":1571288400000,"dCcFolEgl":2,"cAdqNumero":26,"dCcCodTra":450,"cEmiNumero":7,"cCodrazClave":0,"cCodRazon2":null,"dCcCodUso":null,"cNegNumero":"5046370   ","cStaClave":"X","dCcNumSuc":null,"dCcNumAut":"041493","dCcNumCta":"5156767884047809   ","dCcNumRef":"75435299015550463704215","dCcImpTra":48.8000,"dCcImpTraOri":9.2500,"dCcFeTxn":"190114  ","dCcFeTxn2":1547445600000,"dCcMerchId":null,"dCcCurrencyCode":null,"codPaisNeg":"MEX","dCcTipmonOri":"840","dCcTipmonDes":null,"pan":null,"amountTrans":"48.8000","amountReconci":null,"dCcImpTraDeudor":null,"dCcImpTipocamCont":null,"dCcImpEspPeso":null,"dCcImpEspUsd":null,"dCcImpCashback":null,"dCcImpCashadvance":null,"idCasoControversia":null,"cbkid":0,"cbkclaimid":200002011584,"dccimptrarep":0.0,"dCcinddoc":0,"dCcMenExhibit":null,"validationId":null,"funcode":null,"codRazonRep":0},{"dCcFecRem":1571288400000,"dCcFolEgl":5,"cAdqNumero":26,"dCcCodTra":450,"cEmiNumero":7,"cCodrazClave":0,"cCodRazon2":null,"dCcCodUso":null,"cNegNumero":"1055430   ","cStaClave":"Z","dCcNumSuc":null,"dCcNumAut":"08595P","dCcNumCta":"5524334662859692   ","dCcNumRef":"75435298318910554303655","dCcImpTra":369.0800,"dCcImpTraOri":74.9700,"dCcFeTxn":"181113  ","dCcFeTxn2":1542088800000,"dCcMerchId":null,"dCcCurrencyCode":null,"codPaisNeg":"MEX","dCcTipmonOri":"840","dCcTipmonDes":null,"pan":null,"amountTrans":"369.0800","amountReconci":null,"dCcImpTraDeudor":null,"dCcImpTipocamCont":null,"dCcImpEspPeso":null,"dCcImpEspUsd":null,"dCcImpCashback":null,"dCcImpCashadvance":null,"idCasoControversia":null,"cbkid":0,"cbkclaimid":200002011596,"dccimptrarep":0.0,"dCcinddoc":0,"dCcMenExhibit":null,"validationId":null,"funcode":null,"codRazonRep":0}]]
+2019-11-20 10:27:03,096 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Mensaje: 
+2019-11-20 10:27:03,097 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:27:03,097 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] Estatus: 200 OK
+2019-11-20 10:27:03,097 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:03,133 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2019-11-20 10:27:03,143 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CC-A-BX","dtodtFhProcesamiento":1574267223133,"dtodtFechaTrx":1548655200000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5178058017870224   ","dtonvNumeroReferencia":"75435299029510717295398","dtofImporteTrx":2.58,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":0,"dtonvTpoAclaracion":null,"dtonvCbkIdUnico":null,"dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2019-11-20 10:27:03,202 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2019-11-20 10:27:03,202 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 13338
+2019-11-20 10:27:03,203 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:03,203 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:03,215 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2019-11-20 10:27:03,221 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CC-A-BX","dtodtFhProcesamiento":1574267223216,"dtodtFechaTrx":1547445600000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5156767884047809   ","dtonvNumeroReferencia":"75435299015550463704215","dtofImporteTrx":48.8,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":0,"dtonvTpoAclaracion":null,"dtonvCbkIdUnico":null,"dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2019-11-20 10:27:03,257 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2019-11-20 10:27:03,257 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 13339
+2019-11-20 10:27:03,257 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:03,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:03,270 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataIntegrityServiceImpl [main] *********** SE NOTIFICA EN BITACORA EMISOR ***********
+2019-11-20 10:27:03,276 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdBitacoraEmi":null,"dtonvCodigo":"CC-A-BX","dtodtFhProcesamiento":1574267223270,"dtodtFechaTrx":1542088800000,"dtoiEmisor":0,"dtoiAdquirente":26,"dtonvNumeroCta":"5524334662859692   ","dtonvNumeroReferencia":"75435298318910554303655","dtofImporteTrx":369.08,"dtonvCodigoTpoMoneda":null,"dtosiCodigoRazon":0,"dtonvTpoAclaracion":null,"dtonvCbkIdUnico":null,"dtobRequiereRespCBK":false,"dtonvEqpoAclaracion":"","dtonvDeptoAclaracion":""}]]
+2019-11-20 10:27:03,305 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Bitacora
+2019-11-20 10:27:03,306 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 13340
+2019-11-20 10:27:03,306 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:03,306 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:03,306 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] ***FILTRA REGISTROS CON ESTATUS N***
+2019-11-20 10:27:03,310 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] ***ENVIO DE DATOS A SERVICIO CBK BUSINESS DATA***
+2019-11-20 10:27:03,318 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[{"cardNumber":"5178058017870224   ","transactionAmount":0.0,"transactionDate":1548655200000,"transactionType":"0","nodePath":"/Root","claimCbkId":200002011580,"arn":"75435299029510717295398","codeCurrency":"USD","reasonCode":"0","bgIdBitacoraEmisor":null,"iFolioEGL":"1","dtFechaRemesa":null,"codigoStaclave":"X","montoParcial":false,"fechafraude":null,"tipoFraude":null,"chargebackCB2DTO":null,"chargebackCB1DTO":{"createCB1Amount":0.0,"createCB1CredPostedAsPurchase":null,"createCB1Currency":"USD","createCB1DocInd":"0","createCB1MMT":"0","createCB1PartialCB":false,"createCB1Reason":"0","createCB1NBInstallments":null,"supportDocId":null},"subFraude":null}]
+2019-11-20 10:27:04,209 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Mensaje: Etapa: Actualización datos de comercio en CBK
+2019-11-20 10:27:04,209 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Detalle Mensaje: Actualización exitosa
+2019-11-20 10:27:04,209 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:04,209 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:04,212 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"bgIdDetRespEmiCbk":null,"cEstatusBDEmi":"OK","nvEstatusBDDesc":"Éxito","dtFhRespuestaCbk":1574267224209,"nvRespuestaCbk":null,"cEstatusRespCbk":"OK","nvEstatusRespDesc":"Actualización exitosa en CBK","bgIdBitacoraEmi":13338}]]
+2019-11-20 10:27:04,257 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Resultado de Petición CBK
+2019-11-20 10:27:04,257 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:27:04,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:04,258 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:04,260 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[{"cardNumber":"5156767884047809   ","transactionAmount":0.0,"transactionDate":1547445600000,"transactionType":"0","nodePath":"/Root","claimCbkId":200002011584,"arn":"75435299015550463704215","codeCurrency":"USD","reasonCode":"0","bgIdBitacoraEmisor":null,"iFolioEGL":"2","dtFechaRemesa":null,"codigoStaclave":"X","montoParcial":false,"fechafraude":null,"tipoFraude":null,"chargebackCB2DTO":null,"chargebackCB1DTO":{"createCB1Amount":0.0,"createCB1CredPostedAsPurchase":null,"createCB1Currency":"USD","createCB1DocInd":"0","createCB1MMT":"0","createCB1PartialCB":false,"createCB1Reason":"0","createCB1NBInstallments":null,"supportDocId":null},"subFraude":null}]
+2019-11-20 10:27:05,095 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Mensaje: Etapa: Actualización datos de comercio en CBK
+2019-11-20 10:27:05,096 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Detalle Mensaje: Actualización exitosa
+2019-11-20 10:27:05,097 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:05,098 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:05,107 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"bgIdDetRespEmiCbk":null,"cEstatusBDEmi":"OK","nvEstatusBDDesc":"Éxito","dtFhRespuestaCbk":1574267225099,"nvRespuestaCbk":null,"cEstatusRespCbk":"OK","nvEstatusRespDesc":"Actualización exitosa en CBK","bgIdBitacoraEmi":13339}]]
+2019-11-20 10:27:05,133 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Resultado de Petición CBK
+2019-11-20 10:27:05,133 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:27:05,133 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:05,133 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:05,136 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[{"cardNumber":"5524334662859692   ","transactionAmount":0.0,"transactionDate":1542088800000,"transactionType":"0","nodePath":"/Root","claimCbkId":200002011596,"arn":"75435298318910554303655","codeCurrency":"USD","reasonCode":"0","bgIdBitacoraEmisor":null,"iFolioEGL":"5","dtFechaRemesa":null,"codigoStaclave":"Z","montoParcial":false,"fechafraude":null,"tipoFraude":null,"chargebackCB2DTO":null,"chargebackCB1DTO":{"createCB1Amount":0.0,"createCB1CredPostedAsPurchase":null,"createCB1Currency":"USD","createCB1DocInd":"0","createCB1MMT":"0","createCB1PartialCB":false,"createCB1Reason":"0","createCB1NBInstallments":null,"supportDocId":null},"subFraude":null}]
+2019-11-20 10:27:06,040 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Mensaje: Etapa: Actualización datos de comercio en CBK
+2019-11-20 10:27:06,040 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Detalle Mensaje: Actualización exitosa
+2019-11-20 10:27:06,040 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:06,041 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataCbkServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:06,043 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"bgIdDetRespEmiCbk":null,"cEstatusBDEmi":"OK","nvEstatusBDDesc":"Éxito","dtFhRespuestaCbk":1574267226041,"nvRespuestaCbk":null,"cEstatusRespCbk":"OK","nvEstatusRespDesc":"Actualización exitosa en CBK","bgIdBitacoraEmi":13340}]]
+2019-11-20 10:27:06,059 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Mensaje: Etapa: Resultado de Petición CBK
+2019-11-20 10:27:06,059 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Detalle Mensaje: 
+2019-11-20 10:27:06,059 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:06,060 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.BitacoraServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:06,060 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] *********** CIFRAS DE CONTROL ***********
+2019-11-20 10:27:06,060 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Hora Inicio: 10:27:02
+2019-11-20 10:27:06,060 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Hora Fin: 10:27:06
+2019-11-20 10:27:06,060 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Registros: 3
+2019-11-20 10:27:06,060 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Exitosos: 0
+2019-11-20 10:27:06,061 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Pendientes: 0
+2019-11-20 10:27:06,061 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.DataAdqBxServiceImpl [main] Total Fallidos: 3
+2019-11-20 10:27:06,065 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***INICIA CONEXION Y ENVIO DE DATOS: json[[{"dtobgIdCifrasControl":0,"dtodtFhProcesamiento":1574267226061,"dtoiTotalError":3,"dtoiTotalExitosos":0,"dtoiTotalPendientes":0,"dtoiTotalRegistros":3,"dtonvCodigo":"CC-A-BX","dtotHoraFin":"10:27:06","dtotHoraInicio":"10:27:02"}]]
+2019-11-20 10:27:06,091 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Mensaje: Etapa: Cifras De Control
+2019-11-20 10:27:06,091 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Detalle Mensaje: Registro Exitoso || id : 1054
+2019-11-20 10:27:06,091 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] Estatus: 202 ACCEPTED
+2019-11-20 10:27:06,091 [INFO] com.eglobal.ti.cbk.acquirer.service.impl.CifrasControlServiceImpl [main] ***TERMINA CONEXION Y ENVIO DE DATOS
+2019-11-20 10:27:06,127 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhissol'
+2019-11-20 10:27:06,128 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-5 - Shutdown initiated...
+2019-11-20 10:27:06,139 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-5 - Shutdown completed.
+2019-11-20 10:27:06,140 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserverhiscc'
+2019-11-20 10:27:06,142 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-4 - Shutdown initiated...
+2019-11-20 10:27:06,155 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-4 - Shutdown completed.
+2019-11-20 10:27:06,163 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'oraCbkAdm'
+2019-11-20 10:27:06,164 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-3 - Shutdown initiated...
+2019-11-20 10:27:07,403 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-3 - Shutdown completed.
+2019-11-20 10:27:07,405 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbx'
+2019-11-20 10:27:07,407 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-2 - Shutdown initiated...
+2019-11-20 10:27:07,416 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-2 - Shutdown completed.
+2019-11-20 10:27:07,417 [INFO] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-4] Closing JPA EntityManagerFactory for persistence unit 'sqlserveradqbr'
+2019-11-20 10:27:07,419 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2019-11-20 10:27:07,425 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
